@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Color */
+  --DarkBrownColor: #1b0303;
+  --WhiteColor: #fcfcfc;
+  --BlackColor: #121212;
+  --YellowColor: #eeee00;
+  --RedColor: #ed1b24;
+  --BlueColor: #000060;
+
+  /* Font Family */
+  --headingFont: "Bebas Neue", serif;
+  --normalFont: "Roboto", serif;
+
+  /* Font Size */
+  --h1: 40px;
+  --h2: 36px;
+  --h3: 32px;
+  --h4: 24px;
+  --h5: 20px;
+  --h6: 16px;
+  --nav: 14px;
+  --bodytext: 12px;
+
+  /* Font Weight */
+  --regular: 400;
+  --medium: 500;
+  --semiBold: 600;
+  --bold: 700;
+}
+
+/* Logo Navbar Component */
+.LogoNavBar__Container {
+  max-width: 1232px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 28px;
+  align-items: center;
+}
+
+.Contact_container {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.LogoNavBar--a {
+  text-decoration: none;
+  color: var(--DarkBrownColor);
+  display: flex;
+  gap: 12px;
+  font-family: var(--normalFont);
+  font-size: var(--nav);
+}
+
+/* Menu NavBar Component */
+.MenuNavBar__bg {
+  background-color: var(--DarkBrownColor);
+  padding-block: 20.5px;
+}
+.MenuNavBar__Container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1232px;
+  margin-inline: auto;
+}
+
+.MenuNavBar--a {
+  text-decoration: none;
+  color: var(--WhiteColor);
+  font-family: var(--normalFont);
+  font-size: var(--h6);
+}
+
+.MenuNavBar--a:hover,
+.MenuNavBar--a.active {
+  color: var(--YellowColor);
+  font-weight: var(--bold);
+}
+
+/* Btn */
+
+.HomeBtn {
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: var(--DarkBrownColor);
+  border-radius: 24px;
+  color: var(--WhiteColor);
+  max-width: 129px;
+  text-align: center;
+  font-family: var(--normalFont);
+  font-size: var(--h6);
+}
+.HomeBtn:hover {
+  color: var(--DarkBrownColor);
+  background-color: var(--WhiteColor);
+  border: 1px solid var(--DarkBrownColor);
+}
+
+/* Home Hero Section */
+
+/* Small Block Component */
+.HomeHeroSmall__Container {
+  position: relative;
+  max-height: 290px;
+  display: flex;
+}
+
+.HomeHero__SmallImg {
+  max-width: 567px;
+  max-height: 290px;
+}
+
+.HomeHero__Content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 333px;
+  position: absolute;
+  top: 60px;
+  left: 48px;
+}
+
+.HomeHero__Heading {
+  font-family: var(--headingFont);
+  font-size: var(--h4);
+  font-weight: 400;
+  color: var(--WhiteColor);
+}
+
+/* Big Block Component */
+.HomeHeroBig__Container {
+  position: relative;
+  max-height: 580px;
+  display: flex;
+}
+
+.HomeHero__BigImg {
+  max-width: 948px;
+  max-height: 580px;
+}
+
+.HomeHero__BigContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 679px;
+  position: absolute;
+  top: 182px;
+  left: 64px;
+}
+.HomeHero__Heading--h1 {
+  font-family: var(--headingFont);
+  font-size: var(--h1);
+  font-weight: 400;
+  color: var(--WhiteColor);
+}
+
+/* Event Card Component */
+.EventCard__Container {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  background-color: var(--DarkBrownColor);
+  border-radius: 24px;
+  max-width: 592px;
+  color: var(--WhiteColor);
+  max-height: 133px;
+}
+
+.EventCardImg {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 16px;
+}
+
+.EventCard__Content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.EventCard__Heading {
+  font-family: var(--normalFont);
+  font-size: var(--h5);
+  font-weight: var(--bold);
+}
+
+.EventCard__ContentDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.EventCard__Time-Date {
+  display: flex;
+  gap: 12px;
+}
+
+.EventCard__Date,
+.EventCard__Time {
+  font-family: var(--normalFont);
+  font-size: var(--bodytext);
+  font-weight: var(--bold);
+}
+
+.EventCard__Time {
+  font-weight: var(--medium);
+}
+
+.EventCard__ContentDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.EventCard__Location {
+  font-family: var(--normalFont);
+  font-weight: var(--semiBold);
+  color: var(--YellowColor);
+  font-size: var(--bodytext);
+}
+
+.EventCard__Description {
+  font-family: var(--normalFont);
+  font-weight: var(--regular);
+  font-size: var(--bodytext);
+}

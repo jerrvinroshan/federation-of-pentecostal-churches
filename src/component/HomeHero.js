@@ -7,7 +7,7 @@ export const HomeHeroSmall = (props) => {
       <img className="HomeHero__SmallImg" src={props.src} alt={props.alt} />
       <div className="HomeHero__Content">
         <h2 className="HomeHero__Heading">{props.Title}</h2>
-        <HomeBtn BtnName="Know more" />
+        <HomeBtn BtnName="Know more" href={props.link}/>
       </div>
     </div>
   );
@@ -19,7 +19,7 @@ export const HomeHeroBig = (props) => {
       <img className="HomeHero__BigImg" src={props.src} alt={props.alt}/>
       <div className="HomeHero__BigContent">
         <h1 className="HomeHero__Heading--h1">{props.Title}</h1>
-        <HomeBtn BtnName="Know more" />
+        <HomeBtn BtnName="Know more" href={props.link} />
       </div>
     </div>
   );

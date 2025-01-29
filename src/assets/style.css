@@ -104,6 +104,17 @@
   border: 1px solid var(--DarkBrownColor);
 }
 
+.AboutBtn {
+  text-decoration: none;
+  padding: 10px 41.5px;
+  background-color: var(--YellowColor);
+  color: var(--BlackColor);
+  text-align: center;
+  font-family: var(--normalFont);
+  font-size: var(--h6);
+  min-width: 290px;
+}
+
 /* Home Hero Section */
 
 /* Small Block Component */
@@ -163,6 +174,256 @@
   color: var(--WhiteColor);
 }
 
+/* Secondary Block */
+
+.HomeSecondary__AboutusContainer {
+  /* About us in Home page */
+  border-left: 1px solid var(--BlackColor);
+  border-right: 1px solid var(--BlackColor);
+  border-top: 1px solid var(--BlackColor);
+  max-width: 592px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  color: var(--BlackColor);
+}
+
+.HomeSecondary__AboutusContent {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.HomeSecondary__AboutusContent--h2 {
+  font-family: var(--headingFont);
+  font-size: var(--h2);
+  font-weight: var(--regular);
+}
+
+.HomeSecondary__AboutusContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 378px;
+}
+.HomeSecondary__AboutusContent--p {
+  font-family: var(--normalFont);
+  font-size: var(--bodytext);
+}
+
+.HomeSecondary__AboutusBtnContainer {
+  display: flex;
+  gap: 12px;
+  margin-left: -1px;
+}
+
+.ServicesTime__Container {
+  background-color: var(--DarkBrownColor);
+  padding-top: 70px;
+  padding-bottom: 81px;
+  padding-inline: 109px;
+  max-width: 592px;
+  color: var(--WhiteColor);
+  border-radius: 24px;
+  min-width: 592px;
+}
+.ServicesTime__Content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.ServicesTime__Heading--h2 {
+  font-family: var(--headingFont);
+  font-size: var(--h3);
+  font-weight: var(--regular);
+}
+.ServicesTime__ContentContainer {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+.ServicesTime__Heading--h3 {
+  font-family: var(--headingFont);
+  font-size: var(--h5);
+  font-weight: var(--regular);
+}
+.ServicesTime__TimeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ServicesTime__TimeWrapper {
+  display: flex;
+  gap: 20px;
+}
+.ServicesTime__Heading--h4 {
+  font-family: var(--normalFont);
+  font-size: var(--nav);
+  font-weight: var(--bold);
+}
+.ServicesTime--p {
+  font-family: var(--normalFont);
+  font-size: var(--h6);
+  color: var(--RedColor);
+  font-weight: var(--regular);
+}
+
+.BibleVerse__Container {
+  background-color: var(--DarkBrownColor);
+  padding-top: 98px;
+  padding-inline: 58px;
+  padding-bottom: 112px;
+  max-width: 592px;
+  border-radius: 24px;
+}
+.BibleVerse__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  max-width: 474px;
+  color: var(--WhiteColor);
+  justify-content: center;
+}
+.BibleVerse--h2 {
+  font-family: var(--headingFont);
+  font-size: var(--h3);
+  font-weight: var(--regular);
+  text-align: center;
+}
+.BibleVerse__Content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.BibleVerse--h3 {
+  font-family: var(--normalFont);
+  font-size: var(--h6);
+  font-weight: var(--bold);
+}
+.BibleVerse--h3__highlight {
+  color: var(--YellowColor);
+}
+.BibleVerse__VerseContent {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.BibleVerse--p {
+  font-family: var(--normalFont);
+  font-size: var(--nav);
+  font-weight: var(--regular);
+}
+
+/* Small card with Img and name */
+.SmallCard__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 272px;
+  text-decoration: none;
+}
+.SmallCardImg--img {
+  border-radius: 24px;
+  min-height: 270px;
+}
+.SmallCard__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.SmallCard--h2,
+.SmallCard--p {
+  font-family: var(--normalFont);
+  font-size: var(--h5);
+  font-weight: var(--bold);
+  color: var(--BlackColor);
+}
+.SmallCard--p {
+  font-size: var(--bodytext);
+  font-weight: var(--regular);
+}
+
+/* Big card with Img and name */
+.BigCard__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 379px;
+  text-decoration: none;
+}
+.BigCardImg--img {
+  border-radius: 24px;
+  min-height: 402px;
+}
+.BigCard__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.BigCard--h2,
+.BigCard--p {
+  font-family: var(--normalFont);
+  font-size: var(--h5);
+  font-weight: var(--bold);
+  color: var(--BlackColor);
+}
+.BigCard--p {
+  font-size: var(--bodytext);
+  font-weight: var(--regular);
+}
+
+/* Small Card with BgColor */
+.SmallCardImgBg__Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 272px;
+  background-color: var(--DarkBrownColor);
+  border-radius: 24px;
+  text-decoration: none;
+}
+.SmallCardImgBg--img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  min-height: 216px;
+}
+.SmallCardImgBg--h2 {
+  padding: 18px 94px;
+  text-align: center;
+  color: var(--WhiteColor);
+  font-family: var(--normalFont);
+  font-size: var(--h5);
+  font-weight: var(--bold);
+}
+
+/* Big card with BgColor */
+
+.BigCardImgBg__Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 592px;
+  background-color: var(--DarkBrownColor);
+  border-radius: 24px;
+  text-decoration: none;
+}
+.BigCardImgBg--img {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  min-height: 246px;
+  max-height: 246px;
+}
+.BigCardImgBg--h2 {
+  padding: 16px 221px;
+  text-align: center;
+  color: var(--WhiteColor);
+  font-family: var(--normalFont);
+  font-size: var(--h5);
+  font-weight: var(--bold);
+}
+
 /* Event Card Component */
 .EventCard__Container {
   display: flex;
@@ -184,6 +445,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 10px 40px 10px 0;
 }
 
 .EventCard__Heading {
@@ -231,4 +493,95 @@
   font-family: var(--normalFont);
   font-weight: var(--regular);
   font-size: var(--bodytext);
+}
+
+/* pages */
+/* Home Page */
+
+.HomeHeroSection__Container {
+  display: flex;
+}
+.HomeHeroSection__Container.column {
+  flex-direction: column;
+}
+.HomeSecondarySection__Container {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 148px;
+}
+.HomeSecondarySection__ContainerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.HomeCommonSection__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  margin-top: 148px;
+}
+.Home__Heading--h2{
+  text-align: center;
+  font-family: var(--headingFont);
+  font-size: var(--h2);
+  font-weight: var(--regular);
+}
+.HomeCommonSection__ContentContainer{
+  display: flex;
+  gap: 48px;
+  max-width: 1232px;
+  margin-inline: auto;
+}
+.HomeFithSection__Container{
+  display: flex;
+  gap: 48px;
+  max-width: 1232px;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  margin-top: 148px;
+}
+.HomeFifthSection__CommonContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+.HomeCommonSection__FifthContentContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+/* Header */
+.Header__Container{
+  position: relative;
+}
+.Header__Img{
+  width: 100%;
+}
+.Bg__Overlay{
+position: absolute;
+top: 134px;
+left: 211px;
+max-width: 1018px;
+min-height: 266px;
+padding: 34px 106px;
+background-color: var(--WhiteColor);
+border-bottom: 1px solid var(--BlackColor);
+}
+.Header__ContentContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.Header__heading{
+  font: var(--regular) var(--h1) var(--headingFont) ;
+  color: var(--BlackColor);
+}
+.Header__ContentDetails{
+  font: var(--regular) var(--bodytext) var(--normalFont);
+  color: var(--BlackColor);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }

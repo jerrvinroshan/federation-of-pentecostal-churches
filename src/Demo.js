@@ -1,47 +1,28 @@
-import EventCard from "./component/EventCard";
 import { MenuNavbar } from "./component/MenuNavbar";
 import { Navbar } from "./component/Navbar";
-import img from "./assets/image/logo.svg";
-import { HomeHeroBig, HomeHeroSmall } from "./component/HomeHero";
-import heroImg from "./assets/image/home-img.png";
-import heroImage from "./assets/image/home-img1.png";
+import heroImg from "./assets/image/heroImg.png";
+import { Header } from "./component/Header";
+import { BigCardImg } from "./component/Cards";
+import Img from './assets/image/heroImg.png'
 
 function Demo() {
   return (
     <>
       <Navbar />
       <MenuNavbar />
-      <br />
-      <div style={{display:"flex"}}>
-        <HomeHeroBig style={{flex:"1 2 959px"}}
-          src={heroImage}
-          alt="Image"
-          Title="House Church Network Sees Growth, Miracles, and Salvations Across Metro Detroit"
-        />
-        <div style={{display:"flex", flexDirection:"column"}}>
-          <HomeHeroSmall style={{flex:"1 2 531px"}}
-            src={heroImg}
-            alt="Image"
-            Title="South Carolina Children’s Ministry Experiences Holy Spirit Outpouring"
-          />
-          <HomeHeroSmall
-            src={heroImg}
-            alt="Image"
-            Title="South Carolina Children’s Ministry Experiences Holy Spirit Outpouring"
-          />
-        </div>
-      </div>
-      <br />
-      <EventCard
-        EventName="Coffee"
-        date="14/07/24"
-        startTime="9.00 AM"
-        endTime="10.30 AM"
-        location="Kanyakumari"
-        description="Event Details for whom this event like any specific ministry"
-        src={img}
-        alt="Coffee event"
+      <Header
+        src={heroImg}
+        Header="About us"
+        firstPara='The formation of a trust like the "PastorsFellowship, Fellowship of Pentecostal Church Pastors" in the 1980s reflects a significant step towards strengthening unity and support among Pentecostal pastors. This type of fellowship would have provided a platform for pastoral collaboration, spiritual encouragement, and resource sharing, which are key aspects of nurturing the growth of Pentecostal communities.'
+        secondPara='The transition from the Pastors Fellowship to the Federation of Pentecostal Churches (FPC) in 3.10.2006 marked a key moment of structural and organizational development for the group. With this shift, the leadership also expanded, with several key individuals taking on roles that would help steer the vision and growth of the FPC.'
       />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <BigCardImg src={Img} name="Pr. Raja" title="President"/>
     </>
   );
 }

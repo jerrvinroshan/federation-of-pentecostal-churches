@@ -13,6 +13,7 @@
   --YellowColor: #eeee00;
   --RedColor: #ed1b24;
   --BlueColor: #000060;
+  --StrokeColor: #d5d4df;
 
   /* Font Family */
   --headingFont: "Bebas Neue", serif;
@@ -33,6 +34,7 @@
   --medium: 500;
   --semiBold: 600;
   --bold: 700;
+  --black: 900;
 }
 
 /* Logo Navbar Component */
@@ -125,8 +127,9 @@
 }
 
 .HomeHero__SmallImg {
-  max-width: 567px;
+  max-width: 570px;
   max-height: 290px;
+  width: 100%;
 }
 
 .HomeHero__Content {
@@ -151,11 +154,14 @@
   position: relative;
   max-height: 580px;
   display: flex;
+  width: 62.5%;
 }
 
 .HomeHero__BigImg {
-  max-width: 948px;
+  max-width: 950px;
   max-height: 580px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9.7;
 }
 
 .HomeHero__BigContent {
@@ -318,6 +324,7 @@
   font-weight: var(--regular);
 }
 
+/* Card Component */
 /* Small card with Img and name */
 .SmallCard__Container {
   display: flex;
@@ -329,6 +336,9 @@
 .SmallCardImg--img {
   border-radius: 24px;
   min-height: 270px;
+}
+.SmallCardImg--img.small {
+  border-radius: 8px;
 }
 .SmallCard__ContentContainer {
   display: flex;
@@ -424,6 +434,165 @@
   font-weight: var(--bold);
 }
 
+/*  */
+.AboutCardBig__Container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 171px;
+  flex-wrap: wrap;
+}
+.AboutCardBig--img {
+  max-width: 469px;
+  min-height: 362px;
+  border-radius: 24px;
+}
+.AboutCardBig__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 592px;
+}
+.AboutCardBig__Heading {
+  font: var(--bold) var(--h1) var(--normalFont);
+}
+.AboutCardBig__DetailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+.AboutCardBig--p {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+.AboutCardBig__Span {
+  font-weight: var(--bold);
+}
+
+/* About Small Card */
+.AboutCardSmall__Container {
+  display: flex;
+  gap: 98px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.AboutCardSmall--img {
+  max-width: 485px;
+  min-height: 354px;
+  border-radius: 24px;
+}
+.AboutCardSmall__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 649px;
+  justify-content: center;
+}
+.AboutCardSmall--p {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+
+/* Common Card */
+.CommonCard__Container {
+  background-color: var(--DarkBrownColor);
+  padding: 50px 140px;
+  max-width: 592px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  align-items: center;
+}
+.CommonCard--h3 {
+  font: var(--regular) var(--h3) var(--headingFont);
+}
+.yellow {
+  color: var(--YellowColor);
+}
+.red {
+  color: var(--RedColor);
+}
+.CommonCard--ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--WhiteColor);
+}
+.CommonCard--li {
+  font: var(--regular) var(--h6) var(--normalFont);
+}
+
+/* Councils Card */
+.CouncilCard__Container {
+  display: flex;
+  gap: 124px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.CouncilCard__Img {
+  max-width: 379px;
+  min-height: 379px;
+  border-radius: 12px;
+}
+.CouncilCard__ContentContainer {
+  max-width: 591px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.CouncilCard__NameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+.Heading--h4 {
+  font: var(--regular) var(--h4) var(--headingFont);
+}
+.CouncilCard--p {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+/* Big Card for 4 grid */
+.BigCard4grid__Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 378px;
+  min-height: 236px;
+  background-color: var(--DarkBrownColor);
+  text-decoration: none;
+}
+.BigCard4grid--img {
+  min-height: 180px;
+}
+.BigCard4grid--p {
+  text-align: center;
+  font: var(--bold) var(--nav) var(--normalFont);
+  color: var(--WhiteColor);
+  padding-block: 20px;
+}
+/* Small Card for 3 grid */
+.SmallCard3grid__Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 272px;
+  min-height: 284px;
+  background-color: var(--DarkBrownColor);
+  text-decoration: none;
+}
+.SmallCard3grid--img {
+  min-height: 224px;
+}
+.SmallCard3grid--p {
+  text-align: center;
+  font: var(--regular) var(--h5) var(--normalFont);
+  color: var(--WhiteColor);
+  min-height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Event Card Component */
 .EventCard__Container {
   display: flex;
@@ -495,18 +664,201 @@
   font-size: var(--bodytext);
 }
 
+/* Footer Component */
+.Footer__BgColor {
+  background-color: var(--DarkBrownColor);
+  margin-top: 124px;
+  padding-top: 98px;
+  color: var(--WhiteColor);
+}
+.Footer__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+}
+
+.Footer__ContentContainer {
+  display: flex;
+  justify-content: center;
+  gap: 279px;
+  flex-wrap: wrap;
+}
+.FooterMenu__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Footer--h3 {
+  font: var(--bold) var(--h6) var(--normalFont);
+}
+.Footer--ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Footer--Link {
+  text-decoration: none;
+  color: var(--WhiteColor);
+  font: var(--regular) var(--h6) var(--normalFont);
+}
+.Footer__Social--ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.Footer__SocialContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.copyright--p {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+  padding-block: 56px;
+  text-align: center;
+}
+
+/* Calendar Component */
+.Calendar__Container {
+  max-width: 588px;
+  padding: 30px;
+  border: 1px solid var(--BlackColor);
+  border-radius: 16px;
+  background-color: white;
+  text-align: center;
+}
+.Calendar__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Calendar__Heading {
+  font: var(--black) var(--h4) var(--normalFont);
+}
+.Calendar__Btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.Calendar__DayContainer {
+  padding: 0 30px 30px;
+}
+.Calendar__Days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font: var(--semiBold) var(--nav) var(--normalFont);
+  margin-bottom: 5px;
+}
+.Calendar__Grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* border: 1px solid black; */
+}
+
+.Calendar__Day {
+  padding: 20px;
+  border: 1px solid var(--StrokeColor);
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Current__Month {
+  color: var(--BlackColor);
+}
+
+.Other__Month {
+  color: gray;
+}
+
+.today {
+  border: 1px solid #45539d;
+  color: #45539d;
+}
+
+.selected {
+  background-color: #45539d;
+  color: white;
+}
+
+/* Event Calendar Card */
+.EventCalendarCard__Container {
+  display: flex;
+  gap: 48px;
+}
+.EventCalendarCard--Img {
+  max-width: 165px;
+  border-radius: 12px;
+  min-height: 129px;
+}
+.EventCalendarCard__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.EventCalendarCard__ContentContainerHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.EventCalendarCard--h2 {
+  font: var(--bold) var(--h6) var(--normalFont);
+  color: var(--BlackColor);
+}
+.EventCalendarCard__Date-TimeContainer {
+  display: flex;
+  gap: 12px;
+}
+.EventCalendarCard__DateContainer,
+.EventCalendarCard__TimeContainer {
+  display: flex;
+  gap: 4px;
+  color: var(--BlackColor);
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+.EventCalendarCard__DateContainer {
+  color: var(--RedColor);
+}
+.EventCalendarCard__Place {
+  font: var(--regular) var(--nav) var(--normalFont);
+}
+.EventCalendarCard__Description {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+/* Event Calendar */
+.EventCalendar__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* Gallery Image Component */
+.GalleryImg__Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.GalleryImg-img {
+  max-width: 272px;
+  min-height: 252px;
+}
+
 /* pages */
 /* Home Page */
 
 .HomeHeroSection__Container {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .HomeHeroSection__Container.column {
   flex-direction: column;
+  width: 37.5%;
 }
 .HomeSecondarySection__Container {
   display: flex;
   gap: 48px;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 148px;
 }
@@ -521,67 +873,216 @@
   gap: 78px;
   margin-top: 148px;
 }
-.Home__Heading--h2{
+.Home__Heading--h2 {
   text-align: center;
   font-family: var(--headingFont);
   font-size: var(--h2);
   font-weight: var(--regular);
 }
-.HomeCommonSection__ContentContainer{
+.HomeCommonSection__ContentContainer {
   display: flex;
   gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 1232px;
   margin-inline: auto;
 }
-.HomeFithSection__Container{
+.HomeFithSection__Container {
   display: flex;
   gap: 48px;
   max-width: 1232px;
   margin-inline: auto;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 148px;
 }
-.HomeFifthSection__CommonContainer{
+.HomeFifthSection__CommonContainer {
   display: flex;
   flex-direction: column;
   gap: 78px;
 }
-.HomeCommonSection__FifthContentContainer{
+.HomeCommonSection__FifthContentContainer {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
 
 /* Header */
-.Header__Container{
+.Header__Container {
   position: relative;
 }
-.Header__Img{
+.ImgOverlay__Container {
+  position: relative;
+  min-height: 353px;
+}
+.ImgOverlay {
+  position: absolute;
+  width: 100%;
+  min-height: inherit;
+  background-image: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 1) 31%,
+    rgba(18, 18, 18, 0)
+  );
+}
+.Header__Img {
   width: 100%;
 }
-.Bg__Overlay{
-position: absolute;
-top: 134px;
-left: 211px;
-max-width: 1018px;
-min-height: 266px;
-padding: 34px 106px;
-background-color: var(--WhiteColor);
-border-bottom: 1px solid var(--BlackColor);
+.Bg__Overlay {
+  position: absolute;
+  top: 134px;
+  left: 211px;
+  max-width: 1018px;
+  min-height: 266px;
+  padding: 34px 106px;
+  background-color: var(--WhiteColor);
+  border-bottom: 1px solid var(--BlackColor);
 }
-.Header__ContentContainer{
+.Header__ContentContainer {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
-.Header__heading{
-  font: var(--regular) var(--h1) var(--headingFont) ;
+.Header__heading {
+  font: var(--regular) var(--h1) var(--headingFont);
   color: var(--BlackColor);
 }
-.Header__ContentDetails{
+.Header__ContentDetails {
   font: var(--regular) var(--bodytext) var(--normalFont);
   color: var(--BlackColor);
   display: flex;
   flex-direction: column;
   gap: 32px;
+}
+/* Common Heading Style */
+.Heading--h2 {
+  font-family: var(--headingFont);
+  font-size: var(--h2);
+  font-weight: var(--regular);
+  text-align: center;
+}
+
+/* About us */
+.AboutSection__Container {
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+.AboutSection__ContentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+}
+.AboutUsCard {
+  margin-top: 148px;
+}
+.MissionVisionSection__Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 78px;
+  flex-direction: column;
+  margin-top: 124px;
+}
+.MissionVisionSection__ContentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+}
+
+/* Council Page */
+.CouncilMember__MarginTop {
+  margin-top: 124px;
+}
+
+.CouncilsSection__MemberContainer {
+  margin-top: 124px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CouncilsSection__Container {
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  align-items: center;
+}
+.CouncilsSection__ContentContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Ministries Page*/
+.SecondarySection__Container {
+  margin-top: 124px;
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Event Page */
+.Event__ContentContainer {
+  margin-top: 124px;
+  max-width: 1232px;
+  margin-inline: auto;
+  display: flex;
+  gap: 82px;
+}
+.Calendar__EventContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+.EventCalendar__Section {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+}
+.Heading--h3 {
+  font: var(--regular) var(--h3) var(--headingFont);
+  color: var(--BlackColor);
+}
+.RightSide__column {
+  display: flex;
+  gap: 78px;
+}
+.vrLine {
+  border-right: 1px solid var(--BlackColor);
+  min-height: 100px;
+}
+.MainEvent__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* Gallery Page */
+.GalleryContent__Container {
+  max-width: 1232px;
+  margin-inline: auto;
+  margin-top: 124px;
+}
+
+/* Contact us Page */
+.Contactus__Container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.Contactus__ContentContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--BlueColor);
+  font: var(--regular) var(--h6) var(--normalFont);
 }

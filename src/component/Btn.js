@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const HomeBtn = (props) => {
   return (
     <>
@@ -12,9 +14,9 @@ export const HomeBtn = (props) => {
 export const AboutusBtn = (props) => {
   return (
     <>
-      <a className="AboutBtn" href={props.href}>
+      <Link to={props.link} className="AboutBtn">
         {props.BtnName}
-      </a>
+      </Link>
     </>
   );
 };

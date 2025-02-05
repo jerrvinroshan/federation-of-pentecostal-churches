@@ -1,5 +1,3 @@
-import { MenuNavbar } from "../../component/MenuNavbar";
-import { Navbar } from "../../component/Navbar";
 import { HomeHeroBig, HomeHeroSmall } from "../../component/HomeHero";
 import {
   AboutusChurch,
@@ -10,19 +8,18 @@ import {
   BigCardImgBg,
   SmallCardImg,
   SmallCardImgBg,
+  EventCard
 } from "../../component/Cards";
-import EventCard from "../../component/EventCard";
+import { Footer } from "../../component/Footer";
 
 import img from "../../assets/image/logo.svg";
 import heroImg from "../../assets/image/home-img.png";
 import heroImage from "../../assets/image/home-img1.png";
+import EventImg from '../../assets/image/event-title.png'
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <MenuNavbar />
-
       <div className="HomeHeroSection__Container">
         <HomeHeroBig
           src={heroImage}
@@ -89,7 +86,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />{" "}
             <EventCard
@@ -99,7 +96,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />
             <EventCard
@@ -109,7 +106,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />
             <EventCard
@@ -119,7 +116,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />
             <EventCard
@@ -129,7 +126,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />
             <EventCard
@@ -139,7 +136,7 @@ const Home = () => {
               endTime="10.30 AM"
               location="Kanyakumari"
               description="Event Details for whom this event like any specific ministry"
-              src={img}
+              src={EventImg}
               alt="Coffee event"
             />
           </div>
@@ -154,6 +151,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

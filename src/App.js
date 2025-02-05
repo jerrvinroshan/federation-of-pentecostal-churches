@@ -1,12 +1,15 @@
-import Demo from "./Demo";
-import Home from "./pages/Website/Home";
+import { BrowserRouter } from "react-router-dom";
+import { Navbar } from "./component/Navbar";
+import { MenuNavbar } from "./component/MenuNavbar";
+import AppRouter from "./Router/AppRouter";
 
 function App() {
   return (
-    <>
-      {/* <Home/> */}
-      <Demo />
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <MenuNavbar />
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 

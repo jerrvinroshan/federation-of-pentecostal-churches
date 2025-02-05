@@ -42,8 +42,8 @@ export const AboutusChurch = () => {
         </div>
       </div>
       <div className="HomeSecondary__AboutusBtnContainer">
-        <AboutusBtn BtnName="Learn more about the Church" href="#" />
-        <AboutusBtn BtnName="Contact us" href="#" />
+        <AboutusBtn BtnName="Learn more about the Church" link="/about-us" />
+        <AboutusBtn BtnName="Contact us" link="/contact-us" />
       </div>
     </div>
   );

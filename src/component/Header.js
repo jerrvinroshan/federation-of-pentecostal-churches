@@ -1,8 +1,11 @@
 export const Header = (props) => {
   return (
     <>
-      <div className="Header__Container">
-          <img className="Header__Img" src={props.src} />
+      <header className="Header__Container">
+        <div className="ImgOverlay__Container">
+          <div className="ImgOverlay"></div>
+          <img className="Header__Img" src={props.src} alt={props.alt} />
+        </div>
         <div className="Bg__Overlay">
           <div className="Header__ContentContainer">
             <h1 className="Header__heading">{props.Header}</h1>
@@ -12,7 +15,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 };

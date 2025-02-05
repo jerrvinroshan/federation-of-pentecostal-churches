@@ -2,15 +2,16 @@ import logo from "../assets/image/logo.svg";
 import callIcon from "../assets/icons/phonecall.svg";
 import mailIcon from "../assets/icons/mail.svg";
 import "../assets/style.css";
+import { NavLink } from "react-router-dom";
 
 // Logo Navbar
 export const Navbar = () => {
   return (
     <>
       <div className="LogoNavBar__Container">
-        <a className="LogoNavBar--a" href="#">
+        <NavLink activeClassName="active" to='/' className="LogoNavBar--a">
           <img src={logo} alt="Federation of Pentecostal Churches" />
-        </a>
+        </NavLink>
         <ul className="Contact_container">
           <li className="Contact_List">
             <a className="LogoNavBar--a" href="tel:+919587458741">

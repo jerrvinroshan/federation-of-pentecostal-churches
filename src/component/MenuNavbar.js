@@ -6,33 +6,36 @@ export const MenuNavbar = () => {
   return (
     <nav className="MenuNavBar__bg">
       <div className="MenuNavBar__Container">
-        <a exact to='/' className="MenuNavBar--a active" href="#">
+        <NavLink activeClassName="active" exact to='/' className="MenuNavBar--a">
           Home
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to="/about-us" className="MenuNavBar--a">
           About us
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to="/ministries" className="MenuNavBar--a">
           Ministries
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to="/events" className="MenuNavBar--a">
           Events
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to='/zones' className="MenuNavBar--a">
           Zones
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to='/departments' className="MenuNavBar--a">
           Departments
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to='/councils' className="MenuNavBar--a">
           Councils
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to='/commissions' className="MenuNavBar--a">
+          Commissions
+        </NavLink>
+        <NavLink to='gallery' className="MenuNavBar--a">
           Gallery
-        </a>
-        <a className="MenuNavBar--a" href="#">
+        </NavLink>
+        <NavLink to='contact-us' className="MenuNavBar--a">
           Contact us
-        </a>
+        </NavLink>
       </div>
     </nav>
   );

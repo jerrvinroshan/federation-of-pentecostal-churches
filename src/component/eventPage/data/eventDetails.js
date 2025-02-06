@@ -6,7 +6,7 @@ const eventDetails = [
     title: "Event Title",
     image: img,
     alt: "Teach",
-    date: "06/02/2025",
+    date: "06/02/2025",//Date format DD/MM/YYYY or else it dont work
     time: "9:00 AM",
     place: "Place",
     description: "Details",

@@ -894,15 +894,98 @@
   gap: 48px;
 }
 /* Heading and Carousel Component */
-.HeadingCarousel__Container{
+.HeadingCarousel__Container {
   display: flex;
   flex-direction: column;
   gap: 64px;
 }
-.HeadingCarousel__Heading{
+.HeadingCarousel__Heading {
   font: var(--regular) var(--h1) var(--headingFont);
 }
 
+/* Ministries Component */
+/* Sub Ministries blog list */
+.Subministry__Container{
+  display: flex;
+  gap: 48px;
+  margin-top: 124px;
+  flex-wrap: wrap;
+  max-width: 1232px;
+  margin-inline: auto;
+}
+.Blog__Description{
+  max-width: 592px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.Blog__Img{
+  max-width: 165px;
+  min-height: 165px;
+}
+.Blog__ContentContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--BlackColor);
+}
+.Blog__ContentHeading{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.Blog--h2{
+  font: var(--regular) var(--h3) var(--headingFont);
+}
+.Blog--p{
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+.Blog__Btn{
+  max-width: 109px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--BlueColor);
+  color: var(--WhiteColor);
+}
+/* BlogPost */
+.BlogPost__Container{
+  max-width: 1232px;
+  margin-inline: auto;
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+}
+.BlogPost__Heading{
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.BlogPost__Img{
+  max-width: 1232px;
+  min-height: 450px;
+  border-radius: 16px;
+}
+.BlogPost__Heading{
+  font: var(--regular) var(--h1) var(--headingFont);
+  text-align: center;
+  color: var(--BlackColor);
+}
+.Blog__Content{
+display: flex;
+flex-direction: column;
+gap: 28px;
+}
+.Blog__Content--p{
+font: var(--regular) var(--bodytext) var(--normalFont);
+color: var(--BlackColor);
+}
+.Blog__Image{
+  max-height: 350px;
+  max-width: 650px;
+  transform: translateX(50%);
+}
 
 
 /* Gallery Image Component */
@@ -1084,6 +1167,31 @@
   justify-content: center;
 }
 
+/* Ministries Page*/
+.Ministries__Container {
+  display: flex;
+  gap: 48px;
+  max-width: 1232px;
+  margin-inline: auto;
+  margin-top: 124px;
+}
+.Ministry__ContentContainer {
+  max-width: 379px;
+  background-color: var(--DarkBrownColor);
+  cursor: pointer;
+}
+.Ministry__ContentContainer--img {
+  max-width: 379px;
+  min-height: 180px;
+}
+.Ministry__ContentContainer--h2 {
+  font: var(--bold) var(--nav) var(--normalFont);
+  text-align: center;
+  background-color: var(--black);
+  color: var(--WhiteColor);
+  padding: 20px;
+}
+
 /* Council Page */
 .CouncilMember__MarginTop {
   margin-top: 124px;
@@ -1107,15 +1215,6 @@
 .CouncilsSection__ContentContainer {
   display: flex;
   flex-direction: row;
-  gap: 48px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* Ministries Page*/
-.SecondarySection__Container {
-  margin-top: 124px;
-  display: flex;
   gap: 48px;
   flex-wrap: wrap;
   justify-content: center;
@@ -1158,7 +1257,7 @@
 }
 
 /* Zones Page */
-.ZonesContent__Container{
+.ZonesContent__Container {
   max-width: 1232px;
   margin-inline: auto;
   margin-top: 124px;

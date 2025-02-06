@@ -1,15 +1,23 @@
-import React, { useState } from "react";
+import{ useState, useEffect } from "react";
 import eventData from "./data/eventDetails";
 import { EventCalendarCard } from "./EventCalendarCard";
 
-const EventCalendar = () => {
-  const [events] = useState(eventData);
+const EventCalendar = ({ selectedDate }) => {
+  const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    const formattedSelectedDate = selectedDate.toLocaleDateString("en-GB"); // Format as DD/MM/YY
+    const filteredEvents = eventData.filter((event) => event.date === formattedSelectedDate);
+    setEvents(filteredEvents);
+  }, [selectedDate]);
 
   return (
     <div className="EventCalendar__Container">
-      {events.map((event) => (
-        <EventCalendarCard key={event.id} event={event} />
-      ))}
+      {events.length > 0 ? (
+        events.map((event) => <EventCalendarCard key={event.id} event={event} />)
+      ) : (
+        <p>No events for this day.</p>
+      )}
     </div>
   );
 };

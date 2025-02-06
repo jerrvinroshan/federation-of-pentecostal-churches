@@ -1,12 +1,18 @@
+import { useState } from "react";
 import { Header } from "../../component/Header";
 import { Footer } from "../../component/Footer";
 import { Calendar } from "../../component/eventPage/Calendar";
 import EventCalendar from "../../component/eventPage/EventCalendar";
-
-import heroImg from "../../assets/image/heroImg.png";
 import MainEvent from "../../component/eventPage/MainEvent";
 
+import heroImg from "../../assets/image/heroImg.png";
+
 const Events = () => {
+  const [selectedDate, setSelectedDate] = useState(new Date());
+
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
   return (
     <>
       <Header
@@ -18,10 +24,13 @@ const Events = () => {
 
       <div className="Event__ContentContainer">
         <div className="Calendar__EventContainer">
-          <Calendar />
+          <Calendar
+            selectedDate={selectedDate}
+            onDateChange={handleDateChange}
+          />
           <div className="EventCalendar__Section">
             <h2 className="Heading--h3">Events</h2>
-            <EventCalendar />
+            <EventCalendar selectedDate={selectedDate} />
           </div>
         </div>
         <div className="RightSide__column">

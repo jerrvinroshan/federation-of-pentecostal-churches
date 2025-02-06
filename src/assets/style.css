@@ -833,6 +833,78 @@
   gap: 48px;
 }
 
+/* Zones Component */
+/* Zone Card Component */
+.ZoneCard__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 272px;
+}
+.ZoneCard__Img {
+  border-radius: 12px;
+  min-height: 224px;
+}
+.ZoneCard__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ZoneCard__HeadContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--BlackColor);
+}
+.ZoneCard__Heading,
+.ZoneCard__Title {
+  font: var(--regular) var(--h5) var(--headingFont);
+}
+.ZoneCard__Title {
+  font-size: var(--h6);
+}
+.ZoneCard__Contact {
+  font: var(--regular) var(--bodytext) var(--normalFont);
+}
+/* Carousel Component */
+.Carousel__Container {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 160px;
+  background-color: var(--DarkBrownColor);
+  border-radius: 50%;
+  color: #d5d4df;
+  width: 48px;
+  height: 48px;
+}
+.arrowLeft {
+  left: 8px;
+  rotate: -90deg;
+}
+.arrowRight {
+  right: 8px;
+  rotate: 90deg;
+}
+.Carousel__ContentContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+/* Heading and Carousel Component */
+.HeadingCarousel__Container{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.HeadingCarousel__Heading{
+  font: var(--regular) var(--h1) var(--headingFont);
+}
+
+
+
 /* Gallery Image Component */
 .GalleryImg__Container {
   display: grid;
@@ -841,6 +913,26 @@
 .GalleryImg-img {
   max-width: 272px;
   min-height: 252px;
+}
+
+/* Contact Component */
+.Contact__InputContainer {
+  position: relative;
+  max-width: 485px;
+}
+.Contact__InputContainer--icon {
+  position: absolute;
+  left: 62px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--BlackColor);
+}
+.Contact__InputContainer--input {
+  width: 100%;
+  padding: 18px 132px 18px 98px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  outline: none;
 }
 
 /* pages */
@@ -1065,6 +1157,17 @@
   gap: 48px;
 }
 
+/* Zones Page */
+.ZonesContent__Container{
+  max-width: 1232px;
+  margin-inline: auto;
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 132px;
+  width: 98%;
+}
+
 /* Gallery Page */
 .GalleryContent__Container {
   max-width: 1232px;
@@ -1085,4 +1188,10 @@
   text-decoration: none;
   color: var(--BlueColor);
   font: var(--regular) var(--h6) var(--normalFont);
+}
+
+.SearchBar__Container {
+  margin-top: 124px;
+  max-width: 1232px;
+  margin-inline: auto;
 }

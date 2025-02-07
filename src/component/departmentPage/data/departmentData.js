@@ -26,7 +26,7 @@ export const department = [
             image: require("../../../assets/image/CouncilImg.png"),
             alt: "",
             memberName: "Member Name",
-            contact: "5848758968",
+            contact: "959595595",
           },
           {
             id: 1003,

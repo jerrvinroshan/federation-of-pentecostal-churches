@@ -1331,12 +1331,13 @@
 }
 
 /* Department Page */
-.SecondarySection__Container {
+.DepartmentSecondarySection__Container {
   display: flex;
   gap: 48px;
   max-width: 1232px;
   margin-inline: auto;
   margin-top: 124px;
+  flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .Department__ContentContainer {

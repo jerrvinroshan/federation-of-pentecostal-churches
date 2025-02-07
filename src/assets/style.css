@@ -989,26 +989,31 @@
   transform: translateX(50%);
 }
 
-/* Department Sub page component*/
-.Subdepartment__Container {
+/* Department Sub page component and Commission Sub page component*/
+.Subdepartment__Container,
+.Subcommission__Container {
   max-width: 1232px;
   margin-top: 124px;
   margin-inline: auto;
 }
-.Subdepartment__Description {
+.Subdepartment__Description,
+.Subcommission__Description {
   display: flex;
   gap: 48px;
 }
-.Subdepartment__Img {
+.Subdepartment__Img,
+.Subcommission__Img {
   max-width: 485px;
   max-height: 382px;
   border-radius: 24px;
 }
-.Subdepartment__ContentContainer {
+.Subdepartment__ContentContainer,
+.Subcommission__ContentContainer {
   display: flex;
   gap: 108px;
 }
-.SubDepartment__ContentHeading {
+.SubDepartment__ContentHeading,
+.SubCommission__ContentHeading {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -1315,24 +1320,28 @@ border-radius: 8px;
   justify-content: center;
 }
 
-/* Ministries Page*/
-.Ministries__Container {
+/* Ministries Page and Commission page*/
+.Ministries__Container,
+.CommissionSecondarySection__Container {
   display: flex;
   gap: 48px;
   max-width: 1232px;
   margin-inline: auto;
   margin-top: 124px;
 }
-.Ministry__ContentContainer {
+.Ministry__ContentContainer,
+.Commission__ContentContainer {
   max-width: 379px;
   background-color: var(--DarkBrownColor);
   cursor: pointer;
 }
-.Ministry__ContentContainer--img {
+.Ministry__ContentContainer--img,
+.Commission__ContentContainer--img {
   max-width: 379px;
   min-height: 180px;
 }
-.Ministry__ContentContainer--h2 {
+.Ministry__ContentContainer--h2,
+.Commission__ContentContainer--h2 {
   font: var(--bold) var(--nav) var(--normalFont);
   text-align: center;
   background-color: var(--black);

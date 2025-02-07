@@ -1,29 +1,28 @@
-import { Header } from "../Header";
-import { Footer } from "../Footer";
-
 import phoneIcon from "../../assets/icons/phonecall.svg";
+import { Footer } from "../Footer";
+import { Header } from "../Header";
 
-export const SubDepartment = ({ department }) => {
+export const SubCommission = ({ commission }) => {
   return (
     <>
       <Header
-        src={department.image}
-        Header={department.departmentName}
-        firstPara={department.para1}
-        secondPara={department.para2}
+        src={commission.image}
+        Header={commission.commissionName}
+        firstPara={commission.para1}
+        secondPara={commission.para2}
       />
-      <div className="Subdepartment__Container">
-        {department.subDepartment.map((subDepartment) => (
-          <div key={subDepartment.id} className="Subdepartment__Description">
+      <div className="Subcommission__Container">
+        {commission.subCommission.map((subCommission) => (
+          <div key={subCommission.id} className="Subcommission__Description">
             <img
-              className="Subdepartment__Img"
-              src={subDepartment.image}
-              alt={subDepartment.alt}
+              className="Subcommission__Img"
+              src={subCommission.image}
+              alt={subCommission.alt}
             />
-            <div className="Subdepartment__ContentContainer">
+            <div className="Subcommission__ContentContainer">
               <div className="vrLine"></div>
-              <div className="SubDepartment__ContentHeading">
-                {subDepartment.member.map((member) => (
+              <div className="SubCommission__ContentHeading">
+                {subCommission.member.map((member) => (
                   <div key={member.id} className="Member__Container">
                     <img
                       className="Member__img"

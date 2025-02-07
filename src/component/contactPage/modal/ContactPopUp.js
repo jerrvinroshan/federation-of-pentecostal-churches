@@ -1,20 +1,23 @@
+import img from "../../../assets/image/ChurchZoneIMg.png";
 import CloseIcon from "@mui/icons-material/Close";
 
-import img from "../../../assets/image/ChurchZoneIMg.png";
-
-export const ContactPopUp = () => {
+export const ContactPopUp = ({ location, onClose }) => {
+  if (!location) {
+    return null;
+  }
   return (
     <div className="ContactPopUp__Container">
+      <CloseIcon
+        style={{ color: "white", cursor: "pointer" }}
+        onClick={onClose}
+      />
       <div className="ContactPopUp__ContentContainer">
-        <CloseIcon />
-        <div className="ContactPopUp__DetailsContainer">
-          <img className="ContactPopUp__DetailsImg" src={img} alt=""/>
-          <div>
-            <h2>Church Name</h2>
-            <div>
-              <a href="#">A/235A, Kulakachi Road, Nandhankadu, Marthandam.</a>
-              <a href="tel:+919568569859">95685 69859</a>
-            </div>
+        <img className="ContactPopUp__Img" src={location.image} />
+        <div className="ContactPopUp__DetailContainer">
+          <h2 className="ContactPopUp__Heading">{location.name}</h2>
+          <div className="ContactPopUp__LocationContainer">
+            <a className="ContactPopUp__Location" href="#">{location.address}</a>
+            <a className="ContactPopUp__Contact" href={`tel:+91${location.phone}`}>{location.phone}</a>
           </div>
         </div>
       </div>

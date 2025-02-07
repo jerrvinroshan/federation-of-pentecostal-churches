@@ -6,8 +6,6 @@ import { ContactMap } from "../../component/contactPage/Map";
 import heroImg from "../../assets/image/heroImg.png";
 import callIcon from "../../assets/icons/callBlue.svg";
 import mailIcon from "../../assets/icons/mailBlue.svg";
-import { ContactPopUp } from "../../component/contactPage/modal/ContactPopUp";
-import MyMap from "../../component/contactPage/myMap";
 
 const ContactUs = () => {
   return (
@@ -36,8 +34,6 @@ const ContactUs = () => {
         <ContactSearchInput />
       </div>
       <ContactMap />
-      <MyMap/>
-      <ContactPopUp />
       <Footer />
     </>
   );

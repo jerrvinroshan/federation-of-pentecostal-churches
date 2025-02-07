@@ -49,7 +49,7 @@ export const Calendar = ({ selectedDate, onDateChange }) => {
         </div>
         <div className="Calendar__Grid">
           {days.map((day, index) => (
-            <a
+            <button
               key={index}
               className={`Calendar__Day ${
                 day.getMonth() === currentDate.getMonth() ? "Current__Month" : "Other__Month"
@@ -59,7 +59,7 @@ export const Calendar = ({ selectedDate, onDateChange }) => {
               onClick={() => onDateChange(day)} // Pass selected date to parent
             >
               {day.getDate()}
-            </a>
+            </button>
           ))}
         </div>
       </div>

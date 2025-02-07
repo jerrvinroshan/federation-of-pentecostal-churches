@@ -15,6 +15,7 @@ const Zones = () => {
       />
       <div className="ZonesContent__Container">
         <HeadingCarousel zoneName="Colachel" data={ColachelData} />
+        <HeadingCarousel zoneName="Nagercoil" data={ColachelData} />
       </div>
       <Footer />
     </>

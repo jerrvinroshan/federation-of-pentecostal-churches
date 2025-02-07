@@ -12,7 +12,6 @@ import {
 } from "../../component/Cards";
 import { Footer } from "../../component/Footer";
 
-import img from "../../assets/image/logo.svg";
 import heroImg from "../../assets/image/home-img.png";
 import heroImage from "../../assets/image/home-img1.png";
 import EventImg from '../../assets/image/event-title.png'

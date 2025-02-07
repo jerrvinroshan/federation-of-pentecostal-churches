@@ -16,9 +16,10 @@ const Carousel = ({data}) => {
 
   const prevSlide = () => {
     if (currentIndex === 0) {
-      setCurrentIndex(Math.floor(data.length / itemsPerPage) * itemsPerPage);
+      const lastValidIndex = Math.max(data.length - itemsPerPage, 0);
+      setCurrentIndex(lastValidIndex);
     } else {
-      setCurrentIndex((prevIndex) => prevIndex - itemsPerPage);
+      setCurrentIndex((prevIndex) => Math.max(prevIndex - itemsPerPage, 0));
     }
   };
   const currentItems = data.slice(currentIndex, currentIndex + itemsPerPage);

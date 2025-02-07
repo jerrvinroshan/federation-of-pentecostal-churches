@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Header } from "../../component/Header";
 import { Footer } from "../../component/Footer";
-import SubMinistry from "../../component/ministriesPage/SubMinistry";
+import {SubMinistry} from "../../component/ministriesPage/SubMinistry";
 import { ministries } from "../../component/ministriesPage/data/ministryData";
 
 import heroImg from "../../assets/image/heroImg1.png";
@@ -23,8 +23,8 @@ const Ministries = () => {
      <div className="Ministries__Container">
         {ministries.map((ministry) => (
           <div key={ministry.id} className="Ministry__ContentContainer" onClick={() => setSelectedMinistry(ministry)}>
-            <img className="Ministry__ContentContainer--img" src={ministry.image} alt={ministry.name} />
-            <h3 className="Ministry__ContentContainer--h2">{ministry.name}</h3>
+            <img className="Ministry__ContentContainer--img" src={ministry.image} alt={ministry.ministryNamee} />
+            <h3 className="Ministry__ContentContainer--h2">{ministry.ministryName}</h3>
           </div>
         ))}
       </div>

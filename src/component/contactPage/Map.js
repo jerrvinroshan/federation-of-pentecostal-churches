@@ -13,7 +13,7 @@ export const ContactMap = () => {
           marginInline: "auto",
         }}
       >
-        <img src={Map} />
+        <img src={Map} alt="Federation of Pentecostal Churches Location"/>
       </div>
     </>
   );

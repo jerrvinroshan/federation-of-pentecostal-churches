@@ -1,11 +1,11 @@
 import { Footer } from "../Footer";
 
-const BlogPost = ({ post }) => {
+export const BlogPost = ({ post }) => {
   return (
     <>
       <div className="BlogPost__Container">
         <div className="BlogPost__Heading">
-          <img className="BlogPost__Img" src={post.image} />
+          <img className="BlogPost__Img" src={post.image} alt={post.alt} />
           <h2 className="BlogPost__Heading">{post.title}</h2>
         </div>
         <div className="Blog__Content">
@@ -40,9 +40,7 @@ const BlogPost = ({ post }) => {
           })}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
-
-export default BlogPost;

@@ -176,18 +176,3 @@ export const SmallCard3grid = (props) =>{
     </>
   )
 }
-
-export const ZoneCard = () =>{
-  return(
-    <div>
-      <img/>
-      <di>
-        <div>
-          <h3></h3>
-          <p></p>
-        </div>
-        <p></p>
-      </di>
-    </div>
-  )
-}

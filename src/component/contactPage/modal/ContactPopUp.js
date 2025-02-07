@@ -8,7 +8,7 @@ export const ContactPopUp = () => {
       <div className="ContactPopUp__ContentContainer">
         <CloseIcon />
         <div className="ContactPopUp__DetailsContainer">
-          <img className="" src={img} alt=""/>
+          <img className="ContactPopUp__DetailsImg" src={img} alt=""/>
           <div>
             <h2>Church Name</h2>
             <div>

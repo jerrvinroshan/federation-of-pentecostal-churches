@@ -1024,16 +1024,16 @@
   min-height: 165px;
   border-radius: 12px;
 }
-.Member__detail{
+.Member__detail {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.Member__Heading{
+.Member__Heading {
   font: var(--regular) var(--h4) var(--headingFont);
   color: var(--BlackColor);
 }
-.Member__Contact{
+.Member__Contact {
   font: var(--regular) var(--bodytext) var(--normalFont);
   color: var(--BlackColor);
   text-decoration: none;
@@ -1041,7 +1041,6 @@
   gap: 8px;
   align-items: center;
 }
-
 
 /* Gallery Image Component */
 .GalleryImg__Container {
@@ -1079,6 +1078,22 @@
   padding: 42px 52px 158px 116px;
   max-width: 594px;
   margin-inline: auto;
+  border-radius: 12px;
+}
+.ContactPopUp__ContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 84px;
+}
+.ContactPopUp__DetailsContainer{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.ContactPopUp__DetailsImg{
+  border-radius: 12px;
+  max-width: 200px;
 }
 
 /* pages */

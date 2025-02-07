@@ -1,10 +1,13 @@
-import img from '../../../assets/image/ChurchZoneIMg.png'
+import img from "../../../assets/image/ChurchZoneIMg.png";
 
-export const ContactPopUp = () => {
+export const ContactPopUp = ({ location, onClose }) => {
+  // if (!location) {
+  //   return null;
+  // }
   return (
     <div className="ContactPopUp__Container">
-      <div className='Contact'>
-        <img src={img}/>
+      <div className="Contact">
+        <img src={img} onClick={onClose}/>
         <div>
           <img />
           <div>

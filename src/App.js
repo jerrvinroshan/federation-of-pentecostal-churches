@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "./component/Navbar";
-import { MenuNavbar } from "./component/MenuNavbar";
+import { MenuNavbar, MobileMenuNavBar } from "./component/MenuNavbar";
 import AppRouter from "./Router/AppRouter";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <MenuNavbar />
+      <MobileMenuNavBar/>
       <AppRouter />
     </BrowserRouter>
   );

@@ -11,6 +11,7 @@ import {
   EventCard
 } from "../../component/Cards";
 import { Footer } from "../../component/Footer";
+import '../../assets/homeHeroImg.css'
 
 import heroImg from "../../assets/image/home-img.png";
 import heroImage from "../../assets/image/home-img1.png";

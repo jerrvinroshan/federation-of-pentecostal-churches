@@ -87,6 +87,35 @@
   font-weight: var(--bold);
 }
 
+/* Mobile Menu */
+.MobileMenuBar__ContentContainer{
+  position: relative;
+  display: none;
+}
+.MobileMenuBar__LogoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.MobileMenu__LinkContainer{
+  background-color: var(--DarkBrownColor);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 999;
+  padding: 24px 72px;
+  right: 0;
+  gap: 24px;
+}
+/* .MobileMenuNavBar--a{
+  color: var(--DarkBrownColor);
+}
+.MobileMenuNavBar--a.active{
+  color: var(--RedColor);
+} */
+
 /* Btn */
 
 .HomeBtn {

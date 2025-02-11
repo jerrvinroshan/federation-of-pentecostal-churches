@@ -1,0 +1,24 @@
+
+@media (max-width: 1262px) {
+  .LogoNavBar__Container,
+  .MenuNavBar__bg {
+    display: none;
+  }
+  .MobileMenuBar__ContentContainer {
+    display: block;
+  }
+  .HomeHero__BigImg {
+    max-width: 789px;
+  }
+}
+
+
+
+/* @media (max-width:641px){
+    .HomeHeroSection__Container{
+        flex-direction: column;
+    }
+    .HomeHeroSection__Container.column{
+        flex-direction: row;
+    }
+} */

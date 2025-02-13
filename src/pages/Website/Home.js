@@ -8,14 +8,13 @@ import {
   BigCardImgBg,
   SmallCardImg,
   SmallCardImgBg,
-  EventCard
+  EventCard,
 } from "../../component/Cards";
 import { Footer } from "../../component/Footer";
-import '../../assets/homeHeroImg.css'
 
 import heroImg from "../../assets/image/home-img.png";
 import heroImage from "../../assets/image/home-img1.png";
-import EventImg from '../../assets/image/event-title.png'
+import EventImg from "../../assets/image/event-title.png";
 
 const Home = () => {
   return (
@@ -141,7 +140,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <br />
+
         <div className="HomeFifthSection__CommonContainer HomeFifthSection__DepartmentContainer">
           <h2 className="Home__Heading--h2">Department</h2>
           <div className="HomeCommonSection__FifthContentContainer HomeFifthSection__DepartmentContentContainer">
@@ -151,7 +150,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

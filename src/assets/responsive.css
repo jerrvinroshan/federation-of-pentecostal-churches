@@ -1,3 +1,33 @@
+@media (max-width: 1498px) {
+  .ImgOverlay {
+    min-height: 240px;
+  }
+}
+@media (max-width: 1381px) {
+  .Bg__Overlay {
+    left: 200px;
+  }
+}
+@media (max-width: 1361px) {
+  .Bg__Overlay {
+    left: 174px;
+  }
+}
+@media (max-width: 1334px) {
+  .Bg__Overlay {
+    left: 156px;
+  }
+}
+@media (max-width: 1317px) {
+  .Bg__Overlay {
+    left: 138px;
+  }
+}
+@media (max-width: 1297px) {
+  .Bg__Overlay {
+    left: 120px;
+  }
+}
 
 @media (max-width: 1262px) {
   .LogoNavBar__Container,
@@ -11,14 +41,203 @@
     max-width: 789px;
   }
 }
+@media (max-width: 1242px) {
+  .Bg__Overlay {
+    left: 108px;
+  }
+}
+@media (max-width: 1232px) {
+  .AboutUsCard {
+    max-width: 910px;
+    margin-inline: auto;
+    width: 95%;
+  }
+  .AboutCardBig--img {
+    max-width: 100%;
+  }
+  .AboutCardBig__Container {
+    gap: 44px;
+  }
+  .AboutCardBig__ContentContainer {
+    max-width: 912px;
+  }
+  .AboutCardSmall__Container {
+    gap: 44px;
+  }
+  .AboutCardSmall--img {
+    max-width: 100%;
+  }
+  .AboutCardSmall__ContentContainer {
+    max-width: 912px;
+  }
+}
+@media (max-width: 1229px) {
+  .Bg__Overlay {
+    left: 98px;
+  }
+}
 
+@media (max-width: 1172px) {
+  .Bg__Overlay {
+    left: 78px;
+  }
+}
+@media (max-width: 1138px) {
+  .Event__ContentContainer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Event__VrLine {
+    display: none;
+  }
+}
+@media (max-width: 1136px) {
+  .Bg__Overlay {
+    left: 48px;
+  }
+}
+@media (max-width: 1108px) {
+  .Bg__Overlay {
+    left: 38px;
+  }
+}
+@media (max-width: 1092px) {
+  .Bg__Overlay {
+    left: 28px;
+  }
+}
+@media (max-width: 1072px) {
+  .Bg__Overlay {
+    left: 18px;
+  }
+}
+@media (max-width: 1050px) {
+  .Bg__Overlay {
+    left: 10px;
+  }
+}
+@media (max-width: 1037px) {
+  .Bg__Overlay {
+    left: 8px;
+  }
+}
+@media (max-width: 1032px) {
+  .Bg__Overlay {
+    left: 6px;
+  }
+}
 
-
-/* @media (max-width:641px){
-    .HomeHeroSection__Container{
-        flex-direction: column;
-    }
-    .HomeHeroSection__Container.column{
-        flex-direction: row;
-    }
-} */
+@media (max-width: 1026px) {
+  .Bg__Overlay {
+    left: 4px;
+  }
+}
+@media (max-width: 1024px) {
+  .Bg__Overlay {
+    left: 2px;
+  }
+}
+@media (max-width: 1021px) {
+  .Bg__Overlay {
+    left: 1px;
+  }
+}
+@media (max-width: 1019px) {
+  .Bg__Overlay {
+    left: 0px;
+    padding: 30px 34px;
+  }
+}
+@media (max-width: 594px) {
+  .MissionVisionSection__Container {
+    width: 95%;
+    margin-inline: auto;
+  }
+  .CommonCard__Container {
+    padding: 48px 98px;
+    gap: 32px;
+  }
+}
+@media (max-width: 548px) {
+  .Event__ContentContainer {
+    justify-content: center;
+  }
+  .Calendar__Container {
+    padding: 30px 20px;
+  }
+  .Calendar__DayContainer {
+    padding: 0 22px 30px;
+}
+}
+@media (max-width: 532px) {
+  .Header__heading {
+    font-size: var(--h2);
+  }
+}
+@media (max-width: 530px) {
+  .CommonCard__Container {
+    padding: 48px 76px;
+  }
+}
+@media (max-width: 516px) {
+  .Event__ContentContainer{
+    margin-top: 162px;
+  }
+  .Calendar__Container {
+    padding: 20px 2px;
+}
+.Calendar__DayContainer {
+  padding: 0 10px 30px;
+}
+.Calendar__Day{
+  padding: 18px;
+}
+}
+@media (max-width: 465px) {
+  .CommonCard__Container {
+    padding: 48px 74px;
+  }
+}
+@media (max-width: 432px) {
+  .CommonCard__Container {
+    padding: 48px 54px;
+  }
+}
+@media (max-width: 420px){
+  .EventCalendarCard__Date-TimeContainer{
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+@media (max-width: 419px) {
+  .Event__ContentContainer {
+    margin-top: 232px;
+}
+  .CommonCard__Container {
+    padding: 48px 40px;
+  }
+}
+@media (max-width: 415px){
+  .Calendar__Heading {
+    font-size: var(--h5);
+  }
+  .Calendar__Day{
+    font-size: var(--bodytext);
+  }
+}
+@media(max-width:398px){
+  .Event__ContentContainer {
+    margin-top: 194px;
+}
+  .Calendar__DayContainer {
+    padding: 0 10px 0;
+}
+  .Calendar__Day{
+    padding: 15px;
+  }
+}
+@media(max-width:356px){
+  .Calendar__Day{
+    padding: 12px;
+  }
+}

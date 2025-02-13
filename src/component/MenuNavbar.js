@@ -3,8 +3,11 @@ import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import "../assets/style.css";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmailIcon from "@mui/icons-material/Email";
 
 import logo from "../assets/image/logo.svg";
+import phoneIcon from "../assets/icons/phonecall.svg";
 
 // Menu Navbar
 export const MenuNavbar = () => {
@@ -40,10 +43,10 @@ export const MenuNavbar = () => {
         <NavLink to="/commissions" className="MenuNavBar--a">
           Commissions
         </NavLink>
-        <NavLink to="gallery" className="MenuNavBar--a">
+        <NavLink to="/gallery" className="MenuNavBar--a">
           Gallery
         </NavLink>
-        <NavLink to="contact-us" className="MenuNavBar--a">
+        <NavLink to="/contact-us" className="MenuNavBar--a">
           Contact us
         </NavLink>
       </div>
@@ -53,8 +56,10 @@ export const MenuNavbar = () => {
 
 export const MobileMenuNavBar = () => {
   const [clickIcon, setClickIcon] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleClick = () => {
     setClickIcon(!clickIcon);
+    setIsMenuOpen(!isMenuOpen);
   };
   return (
     <nav className="MobileMenuBar__Container">
@@ -69,7 +74,9 @@ export const MobileMenuNavBar = () => {
             {clickIcon ? <CloseIcon /> : <MenuIcon />}
           </div>
         </div>
-        <div className="MobileMenu__LinkContainer">
+        <div
+          className={`MobileMenu__LinkContainer ${isMenuOpen ? "active" : ""}`}
+        >
           <NavLink
             activeClassName="active"
             exact
@@ -120,13 +127,17 @@ export const MobileMenuNavBar = () => {
           <Link
             to="tel:+91896587845"
             className="MenuNavBar--a MobileMenuNavBar--a"
+            style={{ display: "flex", gap: "8px", alignItems: "center" }}
           >
+            <LocalPhoneIcon fontSize="small" />
             896587845
           </Link>
           <Link
             to="mailto:smaple@mail.com"
             className="MenuNavBar--a MobileMenuNavBar--a"
+            style={{ display: "flex", gap: "8px", alignItems: "center" }}
           >
+            <EmailIcon fontSize="small" />
             smaple@mail.com
           </Link>
         </div>

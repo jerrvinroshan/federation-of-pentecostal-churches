@@ -34,7 +34,7 @@ const Events = () => {
           </div>
         </div>
         <div className="RightSide__column">
-          <div className="vrLine"></div>
+          <div className="vrLine Event__VrLine"></div>
           <div className="MainEvent__ContentContainer">
             <h2 className="Heading--h3">Main Event</h2>
             <MainEvent />

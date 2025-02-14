@@ -8,7 +8,7 @@ const GalleryImg = () => {
   return (
     <div className="GalleryImg__Container">
       {img.map((img) => (
-        <img key={img.id} img={img} alt={img.alt} src={img.image} className="GalleryImg-img"/>
+        <img key={img.id} alt={img.alt} src={img.image} className="GalleryImg-img"/>
       ))}
     </div>
   );

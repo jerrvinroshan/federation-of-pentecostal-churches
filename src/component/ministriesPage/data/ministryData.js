@@ -41,9 +41,9 @@ export const ministries = [
       },
       {
         id: 102,
-        title: "Sunday School Activities",
+        title: "Allow Children",
         image: require("../../../assets/image/CouncilImg.png"),
-        description: "Engaging activities for children every Sunday.",
+        description: 'The formation of a trust like the "PastorsFellowship, Fellowship of Pentecostal Church Pastors" in the 1980s reflects a significant step towards strengthening ',
         content: [
           {
             type: "text",

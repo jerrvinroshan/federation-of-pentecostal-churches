@@ -21,7 +21,7 @@ export const SubDepartment = ({ department }) => {
               alt={subDepartment.alt}
             />
             <div className="Subdepartment__ContentContainer">
-              <div className="vrLine"></div>
+              <div className="vrLine vrLineHide"></div>
               <div className="SubDepartment__ContentHeading">
                 {subDepartment.member.map((member) => (
                   <div key={member.id} className="Member__Container">

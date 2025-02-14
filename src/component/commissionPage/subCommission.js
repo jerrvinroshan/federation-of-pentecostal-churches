@@ -20,7 +20,7 @@ export const SubCommission = ({ commission }) => {
               alt={subCommission.alt}
             />
             <div className="Subcommission__ContentContainer">
-              <div className="vrLine"></div>
+              <div className="vrLine vrLineHide"></div>
               <div className="SubCommission__ContentHeading">
                 {subCommission.member.map((member) => (
                   <div key={member.id} className="Member__Container">

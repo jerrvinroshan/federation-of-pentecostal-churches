@@ -11,7 +11,7 @@ export const ContactMap = () => {
     <>
       <div className="Map__Container"
       >
-        <img src={Map} />
+        <img className="ContactMap__Img" src={Map} />
         {locations.map((location) => (
         <LocationMarker
           key={location.id}

@@ -28,6 +28,7 @@
     left: 120px;
   }
 }
+
 @media (max-width: 1262px) {
   .LogoNavBar__Container,
   .MenuNavBar__bg {
@@ -40,17 +41,14 @@
     max-width: 789px;
   }
 }
-@media (max-width: 1261px) {
-  .BlogPost__Container {
-    margin-top: 38px;
-  }
-  .BlogPost__Img {
-    min-height: 384px;
-  }
-}
 @media (max-width: 1242px) {
   .Bg__Overlay {
     left: 108px;
+  }
+}
+@media (max-width: 1237px) {
+  .GalleryImg__Container {
+    justify-content: center;
   }
 }
 @media (max-width: 1232px) {
@@ -77,13 +75,16 @@
   .AboutCardSmall__ContentContainer {
     max-width: 912px;
   }
-  /* {
-
-  } */
 }
 @media (max-width: 1229px) {
   .Bg__Overlay {
     left: 98px;
+  }
+}
+
+@media (max-width: 1224px) {
+  .Carousel__ContentContainer {
+    justify-content: center;
   }
 }
 
@@ -104,25 +105,6 @@
 @media (max-width: 1136px) {
   .Bg__Overlay {
     left: 48px;
-  }
-}
-@media (max-width: 1117px) {
-  .CouncilCard__Container {
-    max-width: 581px;
-  }
-  .CouncilCard__Img {
-    width: 100%;
-    max-width: 581px;
-    min-height: 329px;
-  }
-  .CouncilCard__Container {
-    gap: 62px;
-  }
-}
-@media (max-width: 1116px) {
-  .Subministry__Container {
-    max-width: 578px;
-    justify-content: start;
   }
 }
 @media (max-width: 1108px) {
@@ -160,22 +142,6 @@
   .Bg__Overlay {
     left: 4px;
   }
-  /* Department */
-  .Subdepartment__Description,
-  .Subcommission__Description {
-    flex-direction: column;
-  }
-  .Subdepartment__Img,
-  .Subcommission__Img,
-  .vrLineHide {
-    display: none;
-  }
-  .SubDepartment__ContentHeading,
-  .SubCommission__ContentHeading {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 @media (max-width: 1024px) {
   .Bg__Overlay {
@@ -193,23 +159,12 @@
     padding: 30px 34px;
   }
 }
-@media (max-width: 795px) {
-  .Subministry__Container {
-    margin-top: 172px;
-  }
-  .DepartmentSecondarySection__Container{
-    justify-content: center;
-  }
-}
-@media (max-width: 720px) {
-  .Ministries__Container,
-  .CommissionSecondarySection__Container {
+@media (max-width: 646px) {
+  .SearchBar__Container {
     margin-top: 142px;
   }
-}
-@media (max-width: 663px) {
-  .BlogPost__Img {
-    min-height: 312px;
+  .Contact__InputContainer--input {
+    padding: 18px 60px 18px 98px;
   }
 }
 @media (max-width: 594px) {
@@ -221,20 +176,20 @@
     padding: 48px 98px;
     gap: 32px;
   }
-  /* Ministries Page */
-  .Ministries__Container,
-  .CommissionSecondarySection__Container {
-    margin-top: 162px;
+}
+@media (max-width: 568px) {
+  .ImgOverlay {
+    min-height: 132px;
   }
-  .CouncilCard__Container {
-    max-width: 506px;
+}
+@media (max-width: 558px) {
+  .ImgOverlay {
+    min-height: 130px;
   }
-  .CouncilCard__Img {
-    min-height: 262px;
-  }
-  .CouncilCard__Container {
-    max-width: 506px;
-    margin-inline: auto;
+}
+@media (max-width: 539px) {
+  .ImgOverlay {
+    min-height: 125px;
   }
 }
 @media (max-width: 548px) {
@@ -248,9 +203,17 @@
     padding: 0 22px 30px;
   }
 }
+@media (max-width: 545px) {
+  .ImgOverlay {
+    min-height: 126px;
+  }
+}
 @media (max-width: 532px) {
   .Header__heading {
     font-size: var(--h2);
+  }
+  .ImgOverlay {
+    min-height: 123px;
   }
 }
 @media (max-width: 530px) {
@@ -258,19 +221,10 @@
     padding: 48px 76px;
   }
 }
-@media (max-width: 523px) {
-  .CouncilCard__Container {
-    max-width: 468px;
-  }
-}
-@media (max-width: 521px) {
-  .CouncilMember__MarginTop {
-    margin-top: 138px;
-  }
-}
-@media (max-width: 517px) {
-  .Blog--h2 {
-    font-size: var(--h4);
+@media (max-width: 520px) {
+  .Ministries__Container,
+  .CommissionSecondarySection__Container {
+    margin-top: 148px;
   }
 }
 @media (max-width: 516px) {
@@ -286,46 +240,71 @@
   .Calendar__Day {
     padding: 18px;
   }
-}
-@media (max-width: 483px) {
-  .CouncilCard__Container {
-    max-width: 418px;
+  .ImgOverlay {
+    min-height: 120px;
   }
 }
+@media (max-width: 506px) {
+  .CouncilMember__MarginTop {
+    margin-top: 172px;
+  }
+}
+@media (max-width: 502px) {
+  .ImgOverlay {
+    min-height: 116px;
+  }
+}
+@media (max-width: 484px) {
+  .ImgOverlay {
+    min-height: 112px;
+  }
+}
+@media (max-width: 470px) {
+  .ImgOverlay {
+    min-height: 108px;
+  }
+}
+
 @media (max-width: 465px) {
   .CommonCard__Container {
     padding: 48px 74px;
   }
+}
+@media (max-width: 460px) {
+  .Contact__InputContainer--icon {
+    left: 28px;
+  }
+  .Contact__InputContainer--input {
+    padding: 18px 60px 18px 66px;
+  }
+}
+@media (max-width: 456px) {
+  .ImgOverlay {
+    min-height: 106px;
+  }
+}
+@media (max-width: 446px) {
+  .SearchBar__Container {
+    margin-top: 178px;
+  }
+  .Contact__InputContainer--input {
+    padding: 18px 8px 18px 66px;
+  }
+}
+@media (max-width: 446px) {
+  .ImgOverlay {
+    min-height: 103px;
+  }
+}
+@media (max-width: 438px) {
   .Ministries__Container,
   .CommissionSecondarySection__Container {
     margin-top: 172px;
   }
 }
-@media (max-width: 452px) {
-  .CouncilMember__MarginTop {
-    margin-top: 172px;
-  }
-  /* Department */
-  .Subdepartment__Container,
-  .Subcommission__Container {
-    margin-top: 142px;
-  }
-}
-@media (max-width: 442px) {
-  .Blog--h2 {
-    font-size: var(--h5);
-  }
-  .BlogPost__Heading {
-    font-size: var(--h2);
-  }
-  .BlogPost__Container {
-    gap: 44px;
-  }
-}
-@media (max-width: 437px) {
-  .Ministries__Container,
-  .CommissionSecondarySection__Container {
-    margin-top: 196px;
+@media (max-width: 430px) {
+  .ImgOverlay {
+    min-height: 103px;
   }
 }
 @media (max-width: 432px) {
@@ -333,30 +312,18 @@
     padding: 48px 54px;
   }
 }
-@media (max-width: 428px) {
-  .CouncilCard__Container {
-    max-width: 361px;
+@media (max-width: 426px) {
+  .ImgOverlay {
+    min-height: 98px;
   }
+  .AboutUsCard {
+    margin-top: 210px;
+}
 }
 @media (max-width: 420px) {
   .EventCalendarCard__Date-TimeContainer {
     flex-direction: column;
     gap: 6px;
-  }
-  .Subministry__Container {
-    justify-content: center;
-  }
-  .Blog__Description {
-    max-width: 300px;
-    justify-content: center;
-    align-items: start;
-  }
-  .Blog__Img {
-    max-width: 300px;
-  }
-  .Blog__Description {
-    flex-direction: column;
-    max-width: 300px;
   }
 }
 @media (max-width: 419px) {
@@ -366,10 +333,6 @@
   .CommonCard__Container {
     padding: 48px 40px;
   }
-  .Subdepartment__Container,
-  .Subcommission__Container {
-    margin-top: 166px;
-  }
 }
 @media (max-width: 415px) {
   .Calendar__Heading {
@@ -377,6 +340,23 @@
   }
   .Calendar__Day {
     font-size: var(--bodytext);
+  }
+  .Ministries__Container,
+  .CommissionSecondarySection__Container {
+    margin-top: 202px;
+  }
+}
+@media (max-width: 414px) {
+  .ImgOverlay {
+    min-height: 94px;
+  }
+  .GalleryContent__Container {
+    margin-top: 172px;
+  }
+}
+@media (max-width: 402px) {
+  .SearchBar__Container {
+    margin-top: 240px;
   }
 }
 @media (max-width: 398px) {
@@ -389,50 +369,35 @@
   .Calendar__Day {
     padding: 15px;
   }
-  /* Ministries */
-  .Ministry__ContentContainer,
-  .Commission__ContentContainer {
-    max-width: 350px;
+}
+@media (max-width: 392px) {
+  .ImgOverlay {
+    min-height: 90px;
   }
 }
-@media (max-width: 394px) {
+@media (max-width: 388px) {
   .CouncilMember__MarginTop {
-    margin-top: 212px;
+    margin-top: 208px;
   }
 }
-@media (max-width: 393px) {
-  .Subministry__Container {
-    margin-top: 192px;
+@media (max-width: 376px) {
+  .Contact__InputContainer--icon {
+    left: 20px;
   }
-  .Subdepartment__Container,
-  .Subcommission__Container {
-    margin-top: 172px;
+  .Contact__InputContainer--input {
+    padding: 18px 8px 18px 62px;
   }
+  .ImgOverlay {
+    min-height: 88px;
+  }
+  .Event__ContentContainer {
+    margin-top: 238px;
 }
-@media (max-width: 377px) {
-  .Subdepartment__Container,
-  .Subcommission__Container {
-    margin-top: 204px;
-  }
+
 }
-@media (max-width: 361px) {
-  .Subministry__Container {
-    margin-top: 216px;
-  }
-}
-@media (max-width: 358px) {
-  .Ministry__ContentContainer,
-  .Commission__ContentContainer {
-    max-width: 332px;
-  }
-  .BlogPost__Heading {
-    font-size: var(--h3);
-  }
-}
-@media (max-width: 344px) {
-  .Ministry__ContentContainer,
-  .Commission__ContentContainer {
-    max-width: 292px;
+@media (max-width: 368px) {
+  .ImgOverlay {
+    min-height: 84px;
   }
 }
 @media (max-width: 356px) {
@@ -440,16 +405,46 @@
     padding: 12px;
   }
 }
-@media (max-width: 333px) {
-  .Subministry__Container {
-    margin-top: 233px;
+@media (max-width: 352px) {
+  .ImgOverlay {
+    min-height: 80px;
   }
   .CouncilMember__MarginTop {
-    margin-top: 233px;
+    margin-top: 246px;
   }
-  .Member__Container {
-    gap: 28px;
-    align-items: start;
-    flex-direction: column;
+  .SearchBar__Container {
+    margin-top: 282px;
+  }
+  .Contact__InputContainer--input {
+    padding: 18px 8px 18px 51px;
+  }
+}
+@media (max-width: 336px) {
+  .ImgOverlay {
+    min-height: 76px;
+  }
+  .Ministries__Container,
+  .CommissionSecondarySection__Container {
+    margin-top: 236px;
+  }
+  .GalleryContent__Container {
+    margin-top: 198px;
+  }
+  .Contact__InputContainer--icon {
+    left: 15px;
+  }
+  .Contact__InputContainer--input {
+    padding: 18px 8px 18px 44px;
+  }
+  .AboutUsCard {
+    margin-top: 242px;
+}
+}
+@media (max-width: 326px) {
+  .ImgOverlay {
+    min-height: 74px;
+  }
+  .CouncilMember__MarginTop {
+    margin-top: 266px;
   }
 }

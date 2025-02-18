@@ -1,10 +1,31 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ZoneCard } from "./ZoneCard";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const Carousel = ({data}) => {
-  const itemsPerPage = 4;
+  const [itemsPerPage, setItemsPerPage] = useState(4);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const updateItemsPerPage = () => {
+    const width = window.innerWidth;
+    if (width >= 1226) {
+      setItemsPerPage(4); 
+    } else if (width >= 909) {
+      setItemsPerPage(3); 
+    } else if (width >= 600) {
+      setItemsPerPage(2); 
+    } else {
+      setItemsPerPage(1);
+    }
+  };
+  useEffect(() => {
+    updateItemsPerPage(); 
+    window.addEventListener('resize', updateItemsPerPage); 
+
+    return () => {
+      window.removeEventListener('resize', updateItemsPerPage); 
+    };
+  }, []);
 
   const nextSlide = () => {
     if (currentIndex + itemsPerPage >= data.length) {

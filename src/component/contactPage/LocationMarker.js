@@ -7,8 +7,8 @@ const LocationMarker = ({ location, onClick }) => {
 
   return (
     <div
-      className="LocationMarker"
-      style={{ left: `${location.x}px`, bottom: `${location.y}px` }}
+      className={`LocationMarker ${location.place}`}
+      // style={{ left: `${location.x}px`, bottom: `${location.y}px` }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onClick={() => onClick(location)}

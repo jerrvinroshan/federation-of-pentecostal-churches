@@ -1183,6 +1183,16 @@
   display: flex;
   align-items: end;
 }
+/* Church Location */
+.kanniyakumari {
+  left: 588px;
+  bottom: 8px;
+}
+.kollam {
+  left: 536px;
+  bottom: 54px;
+}
+
 /* Contact Hover Menu Component */
 .ContactHover__Container {
   display: flex;

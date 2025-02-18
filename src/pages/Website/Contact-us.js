@@ -19,7 +19,7 @@ const ContactUs = () => {
             <a href="tel:+919587458741" className="Contactus__ContentContainer">
               <img src={callIcon} alt="Call" />
               <p className="Contactus--p">98565 47858</p>
-            </a>{" "}
+            </a>
             <a
               href="mailto:sample@mail.com"
               className="Contactus__ContentContainer"

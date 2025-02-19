@@ -167,6 +167,11 @@
     padding: 18px 60px 18px 98px;
   }
 }
+@media (max-width: 610px) {
+  .ContactPopUp__Container {
+    padding: 0.62rem 1.25rem 4.87rem 3.25rem;
+  }
+}
 @media (max-width: 594px) {
   .MissionVisionSection__Container {
     width: 95%;
@@ -283,6 +288,11 @@
     min-height: 106px;
   }
 }
+@media (max-width: 448) {
+  .ContactPopUp__Container {
+    gap: 4.25rem;
+  }
+}
 @media (max-width: 446px) {
   .SearchBar__Container {
     margin-top: 178px;
@@ -318,7 +328,19 @@
   }
   .AboutUsCard {
     margin-top: 210px;
-}
+  }
+  .ContactPopUp__Container {
+    padding: 0.62rem 1.25rem 2.87rem;
+    gap: 3.25rem;
+    max-width: 344px;
+    left: 23px;
+  }
+  .ContactPopUp__Img {
+    max-width: 7.5rem;
+  }
+  .ContactHover__Container{
+flex-direction: column;
+  }
 }
 @media (max-width: 420px) {
   .EventCalendarCard__Date-TimeContainer {
@@ -392,8 +414,7 @@
   }
   .Event__ContentContainer {
     margin-top: 238px;
-}
-
+  }
 }
 @media (max-width: 368px) {
   .ImgOverlay {
@@ -438,7 +459,7 @@
   }
   .AboutUsCard {
     margin-top: 242px;
-}
+  }
 }
 @media (max-width: 326px) {
   .ImgOverlay {

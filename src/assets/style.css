@@ -190,14 +190,15 @@
   position: relative;
   max-height: 580px;
   display: flex;
-  width: 62.5%;
+  width: 65.5%;
 }
 
 .HomeHero__BigImg {
-  max-width: 950px;
+  max-width: 995px;
   max-height: 580px;
   object-fit: cover;
-  aspect-ratio: 16 / 9.7;
+  aspect-ratio: 16 / 9.7;    width: 100%;
+
 }
 
 .HomeHero__BigContent {
@@ -1226,7 +1227,7 @@
 }
 .HomeHeroSection__Container.column {
   flex-direction: column;
-  width: 37.5%;
+  width: 34.5%;
 }
 .HomeSecondarySection__Container {
   display: flex;

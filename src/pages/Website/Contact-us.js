@@ -2,6 +2,7 @@ import { Header } from "../../component/Header";
 import { Footer } from "../../component/Footer";
 import { ContactSearchInput } from "../../component/contactPage/ContactSearchInput";
 import { ContactMap } from "../../component/contactPage/Map";
+import locations from "../../component/contactPage/data/locationsData";
 
 import heroImg from "../../assets/image/heroImg.png";
 import callIcon from "../../assets/icons/callBlue.svg";
@@ -31,7 +32,7 @@ const ContactUs = () => {
         }
       />
       <div className="SearchBar__Container">
-        <ContactSearchInput />
+        <ContactSearchInput data={locations} />
       </div>
       <ContactMap />
       <Footer />

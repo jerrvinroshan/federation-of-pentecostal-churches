@@ -691,6 +691,110 @@
     left: 335px;
   }
 }
+@media (max-width: 848px) {
+  .kanniyakumari {
+    left: 392px;
+  }
+  .kollemcode {
+    left: 347px;
+  }
+  .colachel {
+    left: 362px;
+  }
+  .nagercoil {
+    left: 382px;
+  }
+  .killiyoor {
+    left: 366px;
+  }
+  .padmanadapuram {
+    left: 380px;
+  }
+  .thiruvattar {
+    left: 380px;
+  }
+  .vilavancode {
+    left: 318px;
+  }
+}
+@media (max-width: 829px) {
+  .kanniyakumari {
+    left: 382px;
+  }
+  .kollemcode {
+    left: 334px;
+  }
+  .colachel {
+    left: 350px;
+  }
+  .nagercoil {
+    left: 371px;
+  }
+  .killiyoor {
+    left: 355px;
+  }
+  .padmanadapuram {
+    left: 368px;
+  }
+  .thiruvattar {
+    left: 367px;
+  }
+  .vilavancode {
+    left: 303px;
+  }
+}
+@media (max-width: 812px) {
+  .kanniyakumari {
+    left: 372px;
+  }
+  .kollemcode {
+    left: 323px;
+  }
+  .colachel {
+    left: 341px;
+  }
+  .nagercoil {
+    left: 359px;
+  }
+  .killiyoor {
+    left: 345px;
+  }
+  .padmanadapuram {
+    left: 356px;
+  }
+  .thiruvattar {
+    left: 354px;
+  }
+  .vilavancode {
+    left: 290px;
+  }
+}
+@media (max-width: 789px) {
+  .kanniyakumari {
+    left: 360px;
+  }
+  .kollemcode {
+    left: 312px;
+  }
+  .colachel {
+    left: 331px;
+  }
+  .nagercoil {
+    left: 349px;
+  }
+  .killiyoor {
+    left: 335px;
+  }
+  .padmanadapuram {
+    left: 347px;
+  }
+  .thiruvattar {
+    left: 344px;
+  }
+  .vilavancode {
+    left: 279px;
+  }
+}
 @media (max-width: 769px) {
   .kanniyakumari {
     left: 353px;
@@ -715,6 +819,345 @@
   }
   .vilavancode {
     left: 271px;
+  }
+}
+@media (max-width: 745px) {
+  .kanniyakumari {
+    left: 341px;
+  }
+  .kollemcode {
+    left: 292px;
+  }
+  .colachel {
+    left: 311px;
+  }
+  .nagercoil {
+    left: 329px;
+  }
+  .killiyoor {
+    left: 314px;
+  }
+  .padmanadapuram {
+    left: 327px;
+  }
+  .thiruvattar {
+    left: 325px;
+  }
+  .vilavancode {
+    left: 256px;
+  }
+}
+@media (max-width: 716px) {
+  .kanniyakumari {
+    left: 328px;
+  }
+  .kollemcode {
+    left: 279px;
+  }
+  .colachel {
+    left: 297px;
+  }
+  .nagercoil {
+    left: 318px;
+  }
+  .killiyoor {
+    left: 299px;
+  }
+  .padmanadapuram {
+    left: 315px;
+  }
+  .thiruvattar {
+    left: 310px;
+  }
+  .vilavancode {
+    left: 243px;
+  }
+}
+@media (max-width: 699px) {
+  .kanniyakumari {
+    left: 316px;
+  }
+  .kollemcode {
+    left: 272px;
+  }
+  .colachel {
+    left: 288px;
+  }
+  .nagercoil {
+    left: 306px;
+  }
+  .killiyoor {
+    left: 292px;
+  }
+  .padmanadapuram {
+    left: 307px;
+  }
+  .thiruvattar {
+    left: 305px;
+  }
+  .vilavancode {
+    left: 240px;
+  }
+}
+@media (max-width: 679px) {
+  .kanniyakumari {
+    left: 308px;
+  }
+  .kollemcode {
+    left: 262px;
+  }
+  .colachel {
+    left: 278px;
+  }
+  .nagercoil {
+    left: 296px;
+  }
+  .killiyoor {
+    left: 283px;
+  }
+  .padmanadapuram {
+    left: 296px;
+  }
+  .thiruvattar {
+    left: 295px;
+  }
+  .vilavancode {
+    left: 230px;
+  }
+}
+@media (max-width: 650px) {
+  .kanniyakumari {
+    left: 294px;
+  }
+  .kollemcode {
+    left: 252px;
+  }
+  .colachel {
+    left: 267px;
+  }
+  .nagercoil {
+    left: 284px;
+  }
+  .killiyoor {
+    left: 272px;
+  }
+  .padmanadapuram {
+    left: 286px;
+  }
+  .thiruvattar {
+    left: 284px;
+  }
+  .vilavancode {
+    left: 217px;
+  }
+}
+@media (max-width: 629px) {
+  .kanniyakumari {
+    left: 283px;
+  }
+  .kollemcode {
+    left: 237px;
+  }
+  .colachel {
+    left: 256px;
+  }
+  .nagercoil {
+    left: 271px;
+  }
+  .killiyoor {
+    left: 262px;
+  }
+  .padmanadapuram {
+    left: 272px;
+  }
+  .thiruvattar {
+    left: 271px;
+  }
+  .vilavancode {
+    left: 202px;
+  }
+}
+@media (max-width: 609px) {
+  .kanniyakumari {
+    left: 275px;
+  }
+  .kollemcode {
+    left: 226px;
+  }
+  .colachel {
+    left: 248px;
+  }
+  .nagercoil {
+    left: 263px;
+  }
+  .killiyoor {
+    left: 253px;
+  }
+  .padmanadapuram {
+    left: 265px;
+  }
+  .thiruvattar {
+    left: 263px;
+  }
+  .vilavancode {
+    left: 195px;
+  }
+}
+@media (max-width: 589px) {
+  .kanniyakumari {
+    left: 264px;
+  }
+  .kollemcode {
+    left: 219px;
+  }
+  .colachel {
+    left: 240px;
+  }
+  .nagercoil {
+    left: 254px;
+  }
+  .killiyoor {
+    left: 244px;
+  }
+  .padmanadapuram {
+    left: 257px;
+  }
+  .thiruvattar {
+    left: 255px;
+  }
+  .vilavancode {
+    left: 186px;
+  }
+}
+@media (max-width: 569px) {
+  .kanniyakumari {
+    left: 253px;
+  }
+  .kollemcode {
+    left: 209px;
+  }
+  .colachel {
+    left: 230px;
+  }
+  .nagercoil {
+    left: 243px;
+  }
+  .killiyoor {
+    left: 233px;
+  }
+  .padmanadapuram {
+    left: 245px;
+  }
+  .thiruvattar {
+    left: 245px;
+  }
+  .vilavancode {
+    left: 175px;
+  }
+}
+@media (max-width: 539px) {
+  .kanniyakumari {
+    left: 239px;
+  }
+  .kollemcode {
+    left: 199px;
+  }
+  .colachel {
+    left: 218px;
+  }
+  .nagercoil {
+    left: 230px;
+  }
+  .killiyoor {
+    left: 222px;
+  }
+  .padmanadapuram {
+    left: 234px;
+  }
+  .thiruvattar {
+    left: 234px;
+  }
+  .vilavancode {
+    left: 162px;
+  }
+}
+@media (max-width: 510px) {
+  .kanniyakumari {
+    left: 224px;
+  }
+  .kollemcode {
+    left: 186px;
+  }
+  .colachel {
+    left: 205px;
+  }
+  .nagercoil {
+    left: 218px;
+  }
+  .killiyoor {
+    left: 208px;
+  }
+  .padmanadapuram {
+    left: 220px;
+  }
+  .thiruvattar {
+    left: 220px;
+  }
+  .vilavancode {
+    left: 147px;
+  }
+}
+@media (max-width: 479px) {
+  .kanniyakumari {
+    left: 207px;
+  }
+  .kollemcode {
+    left: 172px;
+  }
+  .colachel {
+    left: 190px;
+    bottom: 12px;
+  }
+  .nagercoil {
+    left: 201px;
+  }
+  .killiyoor {
+    left: 193px;
+  }
+  .padmanadapuram {
+    left: 206px;
+  }
+  .thiruvattar {
+    left: 204px;
+  }
+  .vilavancode {
+    left: 135px;
+  }
+}
+@media (max-width: 445px) {
+  .kanniyakumari {
+    left: 197px;
+  }
+  .kollemcode {
+    left: 162px;
+  }
+  .colachel {
+    left: 180px;
+  }
+  .nagercoil {
+    left: 194px;
+  }
+  .killiyoor {
+    left: 181px;
+  }
+  .padmanadapuram {
+    left: 193px;
+  }
+  .thiruvattar {
+    left: 193px;
+  }
+  .vilavancode {
+    left: 123px;
   }
 }
 @media (max-width: 426px) {
@@ -810,6 +1253,39 @@
     left: 145px;
   }
 }
+@media (max-width: 394px) {
+  .kanniyakumari {
+    left: 179px;
+  }
+  .kollemcode {
+    left: 153px;
+    bottom: 28px;
+  }
+  .colachel {
+    left: 166px;
+    bottom: 3px;
+  }
+  .nagercoil {
+    left: 173px;
+    bottom: 3px;
+  }
+  .killiyoor {
+    left: 165px;
+    bottom: 15px;
+  }
+  .padmanadapuram {
+    left: 173px;
+    bottom: 14px;
+  }
+  .thiruvattar {
+    left: 172px;
+    bottom: 26px;
+  }
+  .vilavancode {
+    left: 136px;
+    bottom: 24px;
+  }
+}
 @media (max-width: 376px) {
   .kanniyakumari {
     left: 170px;
@@ -843,37 +1319,169 @@
     bottom: 24px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 369px) {
   .kanniyakumari {
+    left: 166px;
+  }
+  .kollemcode {
+    left: 139px;
+    bottom: 26px;
+  }
+  .colachel {
+    left: 151px;
+    bottom: 3px;
+  }
+  .nagercoil {
+    left: 159px;
+    bottom: 3px;
+  }
+  .killiyoor {
+    left: 151px;
+    bottom: 15px;
+  }
+  .padmanadapuram {
+    left: 159px;
+    bottom: 14px;
+  }
+  .thiruvattar {
+    left: 157px;
+    bottom: 26px;
+  }
+  .vilavancode {
+    left: 122px;
+    bottom: 24px;
+  }
+}
+@media (max-width: 349px) {
+  .kanniyakumari {
+    left: 157px;
+  }
+  .kollemcode {
+    left: 131px;
+    bottom: 26px;
+  }
+  .colachel {
+    left: 143px;
+    bottom: 3px;
+  }
+  .nagercoil {
+    left: 151px;
+    bottom: 3px;
+  }
+  .killiyoor {
     left: 144px;
+    bottom: 15px;
+  }
+  .padmanadapuram {
+    left: 152px;
+    bottom: 14px;
+  }
+  .thiruvattar {
+    left: 152px;
+    bottom: 26px;
+  }
+  .vilavancode {
+    left: 114px;
+    bottom: 24px;
+  }
+}
+@media (max-width: 330px) {
+  .kanniyakumari {
+    left: 149px;
+  }
+  .kollemcode {
+    left: 124px;
+    bottom: 24px;
+  }
+  .colachel {
+    left: 135px;
+    bottom: 3px;
+  }
+  .nagercoil {
+    left: 143px;
+    bottom: 3px;
+  }
+  .killiyoor {
+    left: 137px;
+    bottom: 15px;
+  }
+  .padmanadapuram {
+    left: 144px;
+    bottom: 14px;
+  }
+  .thiruvattar {
+    left: 144px;
+    bottom: 26px;
+  }
+  .vilavancode {
+    left: 107px;
+    bottom: 24px;
+  }
+}
+@media (max-width: 326px) {
+  .kanniyakumari {
+    left: 147px;
+  }
+  .kollemcode {
+    left: 123px;
+    bottom: 24px;
+  }
+  .colachel {
+    left: 132px;
+    bottom: 3px;
+  }
+  .nagercoil {
+    left: 142px;
+    bottom: 3px;
+  }
+  .killiyoor {
+    left: 135px;
+    bottom: 15px;
+  }
+  .padmanadapuram {
+    left: 144px;
+    bottom: 14px;
+  }
+  .thiruvattar {
+    left: 141px;
+    bottom: 26px;
+  }
+  .vilavancode {
+    left: 104px;
+    bottom: 24px;
+  }
+}
+@media (max-width: 323px) {
+  .kanniyakumari {
+    left: 146px;
     bottom: -4px;
   }
   .kollemcode {
     left: 122px;
-    bottom: 22px;
+    bottom: 20px;
   }
   .colachel {
     left: 133px;
     bottom: 2px;
   }
   .nagercoil {
-    left: 140px;
-    bottom: 3px;
+    left: 139px;
+    bottom: -2px;
   }
   .killiyoor {
-    left: 132px;
+    left: 134px;
     bottom: 10px;
   }
   .padmanadapuram {
-    left: 140px;
-    bottom: 12px;
+    left: 143px;
+    bottom: 8px;
   }
   .thiruvattar {
-    left: 136px;
+    left: 140px;
     bottom: 19px;
   }
   .vilavancode {
-    left: 114px;
+    left: 108px;
     bottom: 18px;
   }
 }
